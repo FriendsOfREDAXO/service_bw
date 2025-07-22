@@ -1,0 +1,16 @@
+package: service_bw
+version: '1.2'
+author: 'Friends Of REDAXO'
+
+page:
+    title: translate:service_bw_title
+    perm: admin[]
+    pjax: false
+    icon: rex-icon rex-icon-template
+    subpages:
+        overview:
+            title: 'translate:overview'
+        config:
+            title: translate:config
+            icon: rex-icon fa-book
+            itemClass: pull-right

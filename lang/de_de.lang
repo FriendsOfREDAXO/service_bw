@@ -1,0 +1,8 @@
+service_bw_title = Service-BW (Baden-Württemberg)
+bearer_empty = Bearer Token eintragen
+bearer_token = Bearer Token
+service_bw_config = Config
+overview = Übersicht
+
+gebiet_ags = Gemeinde- bzw. Behördenschlüssel Stadt und GVV
+gebiet_id = Gebiets-ID für Stadt und GVV
