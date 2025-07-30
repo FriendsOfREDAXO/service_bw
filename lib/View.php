@@ -1,6 +1,6 @@
 <?php
 
-namespace ServiceBw;
+namespace FriendsOfRedaxo\ServiceBw;
 
 use rex_fragment;
 
