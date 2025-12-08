@@ -29,12 +29,28 @@ curl --location 'https://sgw.service-bw.de/wsbenutzer/token?scope=read&benutzern
 Ein Modul erstellen und in der Ausgabe den folgenden Code verwenden:
 
 ```php
-echo \ServiceBw\View::getLebenslagen();
+echo \FriendsOfRedaxo\ServiceBw\View::getLebenslagen();
 
 ```
 
 ```php
-echo \ServiceBw\View::getDienstleistungen();
+echo \FriendsOfRedaxo\ServiceBw\View::getDienstleistungen();
+
+```
+
+Alternative Schreibweise:
+
+```php
+use FriendsOfRedaxo\ServiceBw\View;
+
+echo View::getLebenslagen();
+
+```
+
+```php
+use FriendsOfRedaxo\ServiceBw\View;
+
+echo View::getDienstleistungen();
 
 ```
 
