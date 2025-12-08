@@ -89,7 +89,7 @@ class Api
         }
 
         $socket = rex_socket::factory(self::API_URL, 443, true);
-        $socket->setPath('/rest-v2/api/lebenslagen/lebenslagenbaum?mandantId=cillum%20exercitation&gebietAgs=' . self::getGebietsAG() . '&gebietId=' . self::getGebietsID() . '&ebenen=-11687999&page=0&pageSize=1000&sortDirection=asc&sortProperty=name');
+        $socket->setPath('/rest-v2/api/lebenslagen/lebenslagenbaum?mandantId=cillum%20exercitation&gebietAgs=' . self::getGebietsAG() . '&gebietId=' . self::getGebietsID() . '&page=0&pageSize=1000&sortDirection=asc&sortProperty=name');
         $socket->addHeader('Authorization', 'Bearer ' . $bearerToken);
         $socket->acceptCompression();
         $socket->setTimeout(10); // Set a timeout for the request
